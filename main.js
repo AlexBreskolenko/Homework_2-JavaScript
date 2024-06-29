@@ -12,3 +12,14 @@
 //*********Task 2************ */
 // let test = true;
 // test === true ? console.log("+++") : console.log("---");
+
+//*********Task 3************ */
+const day = 21;
+
+if (day === 1 || day <= 10) {
+  console.log("Первая декада.");
+} else if (day >= 11 && day <= 20) {
+  console.log("Вторая декада.");
+} else {
+  console.log("Третья декада.");
+}
